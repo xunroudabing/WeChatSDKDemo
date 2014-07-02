@@ -64,3 +64,5 @@ com_crashlytics_export_strings.xml
 ant.properties
 build.xml
 *.jks
+project.properties
+proguard-project.txt
