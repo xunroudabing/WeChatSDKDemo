@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arr_pic">
+        <item>从相册中选择</item>
+    </array>
+</resources>

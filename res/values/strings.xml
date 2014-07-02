@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">节操尾巴</string>
+
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <string name="errcode_success">分享成功</string>
+    <string name="errcode_cancel">取消分享</string>
+    <string name="errcode_deny">分享被拒绝_(:з)∠)_</string>
+    <string name="errcode_unknown">未知原因，网络大姨妈？_(:з)∠)_</string>
+
+    <string name="title_pic">分享图片</string>
+    <string name="title_music">分享音乐</string>
+</resources>

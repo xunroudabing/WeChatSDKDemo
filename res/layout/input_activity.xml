@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/input"
+          android:layout_marginTop="20.0dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="请输入需要发送的内容"
+          android:background="@drawable/edit_text_holo_light">
+</EditText>

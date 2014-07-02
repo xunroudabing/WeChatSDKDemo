@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:id="@+id/error_ll"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="设备上并无安装微信\n请安装微信后再使用该应用" />
+
+        <Button
+                android:id="@+id/retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重试" />
+    </LinearLayout>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送至朋友圈"
+            android:checked="true"
+            android:id="@+id/timeline_cb"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="15.0dip"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/send_text"
+                    style="@style/btn"
+                    android:text="发送文字" />
+
+            <Button
+                    android:id="@+id/send_pic"
+                    style="@style/btn"
+                    android:text="发送图片" />
+
+            <Button
+                    android:id="@+id/send_web"
+                    style="@style/btn"
+                    android:text="发送网页" />
+
+            <Button
+                    android:id="@+id/send_music"
+                    style="@style/btn"
+                    android:text="发送音乐" />
+
+            <Button
+                    android:id="@+id/send_video"
+                    style="@style/btn"
+                    android:text="发送视频" />
+
+            <Button
+                    android:id="@+id/send_app"
+                    style="@style/btn"
+                    android:text="发送APP消息"
+                    android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

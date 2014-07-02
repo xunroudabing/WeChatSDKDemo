@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tail="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/ab_save"
+            android:title="保存"
+            android:icon="@drawable/ic_action_save"
+            tail:showAsAction="always"/>
+</menu>
